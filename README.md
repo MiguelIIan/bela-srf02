@@ -1,4 +1,4 @@
-# SRF02 sonar I2C sensor
+# SRF02 sonar I2C sensor in Bela
 Release date: 01/02/2026
 
 ### Summary
