@@ -19,11 +19,14 @@ This repository contains the library that enables the Bela development board to 
 Simply add all the ```.cpp``` and ```.hpp``` files to your project and modify your build script to include them.
 
 #### Using the library
-* Include ```"srf02.hpp"```
+* Include ```"srf02.hpp"``` in the Bela project
 * Create an object of SRF02 class
 * Call ```.begin()```
+
 For a distance reading:
 * Call ```.readDistance()```
+
+You can see all this steps in the ```render.cpp``` file. This file is a simple example using SRF02 in a Bela project
 
 #### Methods
 * ```SRF02()``` --> Constructor.
